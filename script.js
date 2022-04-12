@@ -90,9 +90,3 @@ btnHold.addEventListener('click', function () {
 btnNew.addEventListener('click', function () {
   defaultSetup();
 });
-
-document.querySelector('.input').oninput = function () {
-  if (this.value == '0') {
-    console.log('Put number above 0');
-  }
-};
